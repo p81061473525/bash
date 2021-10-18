@@ -1,0 +1,13 @@
+``` input.sh $1 $2
+#!/bin/bash
+
+BOT_TOKEN="秘密"
+CHAT_ID="秘密"
+DATE="date"
+URL="https://roastcook.oddle.me/zh_TW"
+MESSAGE="$1"
+MESSAGE2="$2"
+
+curl "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${MESSAGE} , ${MESSAGE2}"
+echo "\n"
+```
