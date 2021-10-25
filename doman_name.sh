@@ -14,7 +14,10 @@ reset="\e[0m"
 #################
 # 變數區塊       #
 #################
-DOMAIN_NAME=("aaa.com" "bbb.com" "ccc.com")
+DOMAIN_NAME=(
+"aaa.com" 
+"bbb.com"
+"ccc.com" )
 
 #########
 # 主程式 #
